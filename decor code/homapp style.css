@@ -1,0 +1,35 @@
+
+.card-container{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 50px;
+}
+.card{
+    
+    width: 19rem;
+    border: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+     transition: transform 0.6s;
+}
+.card:hover {
+    transform: translateY(-20px);
+
+}
+
+.card-body{
+    background-color: rgb(161, 215, 236);
+    padding: 20px;
+}
+.card-body h2{
+    font-size: 20px;
+}
+.container{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 50px;
+}

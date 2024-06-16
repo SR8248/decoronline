@@ -1,0 +1,26 @@
+.contact.cont-container{
+
+    width: 85%;
+    margin: auto;
+    text-align: center;
+
+}
+.cont-container h1{
+    color: rgb(71, 185, 230);
+    font-size: 45px;
+    margin-top:5% ;
+}
+.wrapper{
+    width: 85%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 50px;
+}
